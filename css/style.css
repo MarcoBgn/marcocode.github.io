@@ -52,14 +52,30 @@ ul {
 }
 
 .img-responsive {
-  min-height: 140px;
-  min-width: 290px;
+  height: 200px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 1em 7em;
 }
 
 /*layout*/
+@media only screen and (min-width:768px) {
+  .img-responsive {
+    height: 168px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em 7em;
+  }
+}
 
-@media only screen and (max-width:750px) {
-
+@media only screen and (min-width:1200px) {
+  .img-responsive {
+    height: 168px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em 7em;
+  }
 }
