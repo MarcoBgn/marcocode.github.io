@@ -1,5 +1,4 @@
 /*reset*/
-
 body, html {
   font-family: 'Lato', Arial, sans-serif;
   color: #2d3c49;
@@ -26,7 +25,6 @@ ul {
 }
 
 /*fonts*/
-
 h3 {
   	text-shadow: 0 1px #7d97ad;
 }
@@ -57,7 +55,6 @@ h3 {
 
 
 /* Images */
-
 .banner {
   width: 90%;
   height: 130px;
@@ -93,7 +90,6 @@ h3 {
 }
 
 /* layout */
-
 @media only screen and (max-width:768px) {
   .text-muted {
     text-align: center;
