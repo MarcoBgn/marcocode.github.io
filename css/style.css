@@ -89,6 +89,10 @@ h3 {
   border-width: 3px;
 }
 
+paper-ripple {
+  color: #02b3e4;
+}
+
 /* layout */
 @media only screen and (max-width:768px) {
   .text-muted {
