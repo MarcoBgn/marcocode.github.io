@@ -1,32 +1,11 @@
-/*reset*/
-body, html {
-  font-family: 'Lato', Arial, sans-serif;
-  color: #2d3c49;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-}
-
-h1, h2, h3, h4, h5 {
-  margin: 0;
-}
-
-header, nav, footer, section, article, div {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 /*fonts*/
+
+body {
+  color: #2d3c49;
+}
+
 h3 {
-  	text-shadow: 0 1px #7d97ad;
+  text-shadow: 0 1px #7d97ad;
 }
 
 .text-muted {
@@ -40,7 +19,8 @@ h3 {
 }
 
 .title-super {
-  font-size: 60px;
+  font-size: 4em;
+  width: 100%;
 }
 
 .title-logo {
@@ -52,7 +32,6 @@ h3 {
 .title-logo:hover {
   opacity: 0.7;
 }
-
 
 /* Images */
 .banner {
