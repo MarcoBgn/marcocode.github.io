@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-webpage",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Marco Bagnasco <admin@hecticmojo.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "responsive"
+  ],
+  "homepage": "https://github.com/MarcoCode/portfolio-webpage",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-ripple": "PolymerElements/paper-ripple#^1.0.5"
+  }
+}
