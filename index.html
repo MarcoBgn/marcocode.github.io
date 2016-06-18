@@ -8,6 +8,7 @@
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="bower_components/paper-ripple/paper-ripple.html">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -24,14 +25,17 @@
             </div>
         </section>
       </header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="container-header">
-            <span class="icon"><a href="contact.html">Contact</a></span>
-            <span class="icon"><a href="contact.html">Blog</a></span>
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar">
+          <span>
+            <a class="btn btn-default btn-nav" href="contact.html"><i class="fa fa-envelope-o fa-md"></i> Contact</a>
+          </span>
+          <span>
+            <a class="btn btn-default btn-nav" href="contact.html"><i class="fa fa-pencil fa-md"></i> Blog</a>
+          </span>
+          <span>
+            <a class="btn btn-default btn-nav" href="https://www.github.com/marcocode"><i class="fa fa-code-fork fa-lg"></i> Github</a>
+          </span>
+        </nav>
       <hr class="separator">
       <div class="row">
         <div class="col-md-12">
@@ -48,20 +52,20 @@
           <paper-ripple center></paper-ripple>
           <img class="img-responsive" src="images/githubVanilla.png" data-toggle="modal" data-target="#first_project" alt="screenshot of app">
             <h3>GitHub API - Vanilla JavaScript</h3>
-          <p><a href="https://github.com/MarcoCode/GitHubReposVanillaJS">Link to GitHub repo</a></p>
+          <p><a class="btn btn-default btn-xs" href="https://github.com/MarcoCode/GitHubReposVanillaJS">Link to GitHub repo</a></p>
         </div>
         <div class="project2 col-md-4 col-sm-4">
           <paper-ripple center></paper-ripple>
           <img class="img-responsive" src="images/iplayer.png" data-toggle="modal" data-target="#second_project" alt="screenshot of app">
             <h3>iPLayer Lister</h3>
-          <p><a href="https://github.com/MarcoCode/iPlayerBBC">Link to GitHub repo</a></p>
+          <p><a class="btn btn-default btn-xs" href="https://github.com/MarcoCode/iPlayerBBC">Link to GitHub repo</a></p>
         </div>
         <div class="project3 col-md-4 col-sm-4">
           <paper-ripple center></paper-ripple>
           <img class="img-responsive" src="images/fairmuse.png" data-toggle="modal" data-target="#third_project" alt="screenshot of app">
             <h3>Fair Muse</h3>
           <p>
-            <a href="https://github.com/MarcoCode/fairMuse">Link to GitHub repo</a>
+            <a class="btn btn-default btn-xs" href="https://github.com/MarcoCode/fairMuse">Link to GitHub repo</a>
           </p>
         </div>
       </section>

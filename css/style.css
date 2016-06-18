@@ -5,6 +5,7 @@ body {
 
 h3 {
   text-shadow: 0 1px #7d97ad;
+  min-height: 52px;
 }
 
 .text-muted {
@@ -30,6 +31,18 @@ h3 {
 
 .title-logo:hover {
   opacity: 0.7;
+}
+/* nav */
+.btn-nav {
+  width: 6em;
+}
+
+.btn {
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: -6px 7px 7px -8px rgba(0,0,0,0.65);
+  -moz-box-shadow: -6px 7px 7px -8px rgba(0,0,0,0.65);
+  box-shadow: -6px 7px 7px -8px rgba(0,0,0,0.65);
 }
 
 /* Images */
@@ -72,7 +85,17 @@ paper-ripple {
 }
 
 /* layout */
-@media only screen and (max-width:768px) {
+@media only screen (max-width: 360px) {
+  .text-muted {
+    text-align: center;
+  }
+
+  .btn-nav {
+    width: 7em;
+  }
+}
+
+@media only screen and (max-width:767px) {
   .text-muted {
     text-align: center;
   }
@@ -105,6 +128,10 @@ paper-ripple {
   .text-muted {
     text-align: left;
   }
+
+  .btn-nav {
+    width: 9em;
+  }
 }
 
 @media only screen and (min-width:1200px) {
@@ -129,5 +156,9 @@ paper-ripple {
     margin-top: 20px;
     width: 100px;
     height: 100px;
+  }
+
+  .btn-nav {
+    width: 10em;
   }
 }
