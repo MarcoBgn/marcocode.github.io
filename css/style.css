@@ -93,11 +93,21 @@ paper-ripple {
   .btn-nav {
     width: 7em;
   }
+
+  .title-super {
+    font-size: 2.5em;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width:767px) {
   .text-muted {
     text-align: center;
+  }
+
+  .title-super {
+    font-size: 3em;
+    width: 100%;
   }
 }
 
