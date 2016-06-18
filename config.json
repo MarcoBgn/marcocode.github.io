@@ -384,8 +384,31 @@
   "css": [
     "type.less",
     "grid.less",
+    "forms.less",
+    "buttons.less",
+    "responsive-utilities.less",
+    "button-groups.less",
+    "navs.less",
+    "navbar.less",
+    "alerts.less",
+    "progress-bars.less",
+    "component-animations.less",
+    "dropdowns.less",
     "modals.less"
   ],
-  "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=a638bc361411db7b960660019f863e16"
+  "js": [
+    "alert.js",
+    "button.js",
+    "carousel.js",
+    "dropdown.js",
+    "modal.js",
+    "tooltip.js",
+    "popover.js",
+    "tab.js",
+    "affix.js",
+    "collapse.js",
+    "scrollspy.js",
+    "transition.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=f54f7d9f68ad4a85e1a1923428054e8d"
 }
