@@ -112,6 +112,23 @@ h3 {
   z-index: -1;
 }
 
+.notice {
+  text-align: center;
+  position: relative;
+  transition: transform 1s;
+}
+
+.flash {
+  text-align: center;
+  position: relative;
+  top: 7.5em;
+}
+
+.trans {
+  color: darkgray;
+  top: 7.5em;
+  transform: rotate(12deg);
+}
 /* layout */
 @media only screen (max-width: 360px) {
   .text-muted {
